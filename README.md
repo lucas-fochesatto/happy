@@ -1,4 +1,6 @@
-# Happy Web ![logo-icon](https://user-images.githubusercontent.com/58178979/96646521-42656f80-12fa-11eb-97a6-c225025ae323.png)
+# Happy Web :)
+
+![logo-github](https://user-images.githubusercontent.com/58178979/96647414-9755b580-12fb-11eb-90e6-07246c1964dd.png)
 
 ### Português (Brasil)
 
