@@ -1,5 +1,4 @@
-# Happy Web ![logo-icon](https://user-images.githubusercontent.com/58178979/96646521-42656f80-12fa-11eb-97a6-c225025ae323.png)
-
+# Happy Web <img src=https://user-images.githubusercontent.com/58178979/96646521-42656f80-12fa-11eb-97a6-c225025ae323.png height=27 width=25>
 ### Português (Brasil)
 
 Bem-vindo ao projeto Happy Web!
