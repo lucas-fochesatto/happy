@@ -2,18 +2,7 @@ const map = L.map('mapid').setView([user.latitude, user.longitude], 15);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-var icon = L.icon(
-    {
-        iconUrl: "/images/you-marker.svg",
-        iconSize: [58, 68],
-        iconAnchor: [29, 68],
-        popupAnchor: [170, 2]
-    }
-)
-
-L.marker([user.latitude, user.longitude], { icon }).addTo(map)
-
-var icon = L.icon(
+const icon = L.icon(
     {
         iconUrl: "/images/map-marker.svg",
         iconSize: [58, 68],
@@ -21,6 +10,17 @@ var icon = L.icon(
         popupAnchor: [170, 2]
     }
 )
+
+const youIcon = L.icon(
+    {
+        iconUrl: "/images/you-marker.svg",
+        iconSize: [58, 68],
+        iconAnchor: [29, 68],
+        popupAnchor: [0, 0]
+    }
+)
+
+L.marker([user.latitude, user.longitude], { icon: youIcon }).addTo(map)
 
 function addMarker({id, name, lat, lng}) {
     const popup = L.popup(
